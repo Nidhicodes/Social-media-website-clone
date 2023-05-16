@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socialhub</title>
+    <link rel="stylesheet" href="socialhub.css?v=1.0">
+    <script src="https://kit.fontawesome.com/28a6086b1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="logon.png" class="logo" >
+            <ul>
+                <li><img src="8665084_bell_icon.png" class="icon"></li>
+                <li><img src="2203552_email_inbox_letter_send_icon.png" class="icon"></li>
+                <li><img src="5279120_play_video_youtube_youtuble logo_icon.png" class="icon"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="172546_search_icon.png" width="24 px" height="14 px" margin= "0 15px" >
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="pp.jpg"  >
+            </div>
+        </div>
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="pp.jpg">
+                    <div>
+                        <p> Nimisha Tyagi</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="51533_chat_feedback_speech bubble_talk_icon.png">
+                    <div>
+                        <p> Give Feedback</p>
+                        <a href="#">Help us to improve</a>
+                    </div>
+                </div>   
+                <hr>
+                <div class="settings-links">
+                    <img src="5402442_settings_cog_configuration_gear_options_icon.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="arrow-icon-1177-Windows.ico" width="10px"></a>
+                </div> 
+                <div class="settings-links">
+                    <img src="5402385_faq_help_info_question_doubt_icon.png"class="settings-icon">
+                    <a href="#">Help & Support <img src="arrow-icon-1177-Windows.ico" width="10px"></a>
+                </div> 
+
+                <div class="settings-links">
+                    <img src="5402388_information_about_support_accessibility_info_icon.png"class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow-icon-1177-Windows.ico" width="10px"></a>
+                </div> 
+
+                <div class="settings-links">
+                    <img src="7122372_logout_icon.png"class="settings-icon">
+                    <a href="#">Logout <img src="arrow-icon-1177-Windows.ico" width="10px"></a>
+                </div> 
+
+            </div>
+            
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="103657_news_icon.png"> Latest News </a>
+                <a href="#"><img src="309042_group_users_people_icon.png"> Friends </a>
+                <a href="#"><img src="309041_users_group_people_icon.png"> Group </a>
+                <a href="#"><img src="2849824_store_shopping_market_buy_shop_icon.png"> Marketplace </a>
+                <a href="#"><img src="2527971_cinema_film_media_movie_reel_icon.png"> Reels </a>
+                <a href="#"> See More </a>
+            </div>
+            <div class="shortcut-links">
+                 <p> Shortcuts </p>
+                 <a href="#"><img src="178bf239781deeaeaef569acbfb50a0b.jpg"> Library </a>
+                 <a href="#"><img src="f.jpg"> Fashion </a>
+                 <a href="#"><img src="news.jpg"> Latest News </a>
+                 <a href="#"><img src="tech.jpg"> Technology </a>
+            </div>
+        </div>
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="9023850_plus_circle_fill_icon.png">
+                    <p> Post Story </p>
+                </div>
+                <div class="story story2">
+                    <img src="m2.jpg">
+                    <p> Karan P </p>
+                </div>
+                <div class="story story3">
+                    <img src="m33.jfif">
+                    <p> Vijay </p>
+                </div>
+                <div class="story story4">
+                    <img src="m4.jpg">
+                    <p> Soumya.18 </p>
+                </div>
+                <div class="story story5">
+                    <img src="m5.jfif">
+                    <p> Rishika_6 </p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="pp.jpg">
+                    <div>
+                        <p> Nimisha Tyagi</p>
+                        <small> Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Nimisha?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><i class="fa-solid fa-video"></i>  Live Video</a>
+                        <a href="#"><i class="fa-solid fa-camera"></i>     Photo/Video</a>
+                        <a href="#"><i class="fa-solid fa-face-smile"></i>  Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="pp.jpg">
+                        <div>
+                            <p> Nimisha Tyagi</p>
+                            <span>May  2 2023, 18:06</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Subscribe <span>@Techie</span> YouTube channel to watch more videos on tech and innovation. <a href="#"> #TechMadeFun</a><a href="#"> #followonYT</a> </p>
+                <img src="ti.jpeg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="7830784_like_icon.png">  500</div>
+                        <div><img src="9110966_comment_text_icon.png"> 367</div>
+                        <div><img src="1564530_arrow_next_share_direction_icon.png">  25</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="pp.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="post-profile-icon">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="pp.jpg">
+                        <div>
+                            <p> Nimisha Tyagi</p>
+                            <span>May  2 2023, 18:06</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Like and Share this post with friends <span>@Techie</span> facebook page on your post. Ask your doubts if any in the comments below <a href="#"> #TechMadeFun</a><a href="#"> #followonYT</a> </p>
+                <img src="img2.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="7830784_like_icon.png">  275</div>
+                        <div><img src="9110966_comment_text_icon.png"> 432</div>
+                        <div><img src="1564530_arrow_next_share_direction_icon.png">  13</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="pp.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="post-profile-icon">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="pp.jpg">
+                        <div>
+                            <p> Nimisha Tyagi</p>
+                            <span>May  2 2023, 18:06</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Food-Tech: Necessity of 21st century <a href="#"> #Tech</a><a href="#"> #followforfollow</a> </p>
+                <img src="img3.jpeg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="7830784_like_icon.png">  141</div>
+                        <div><img src="9110966_comment_text_icon.png"> 57</div>
+                        <div><img src="1564530_arrow_next_share_direction_icon.png">  4</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="pp.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="post-profile-icon">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="pp.jpg">
+                        <div>
+                            <p> Nimisha Tyagi</p>
+                            <span>May  2 2023, 18:06</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Welcome to our space;) <a href="#"> #like #comment #share</a> </p>
+                <img src="img4.jpeg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="7830784_like_icon.png">  381</div>
+                        <div><img src="9110966_comment_text_icon.png"> 143</div>
+                        <div><img src="1564530_arrow_next_share_direction_icon.png">  27</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="pp.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="post-profile-icon">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="pp.jpg">
+                        <div>
+                            <p> Nimisha Tyagi</p>
+                            <span>May  2 2023, 18:06</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Explore futuristic technology with us <a href="#"> #followonYT</a> </p>
+                <img src="img5.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="7830784_like_icon.png">  622</div>
+                        <div><img src="9110966_comment_text_icon.png"> 401</div>
+                        <div><img src="1564530_arrow_next_share_direction_icon.png">  23</div>
+
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="pp.jpg"><i class="fas fa-caret-down"></i>
+                    </div>
+                    <div class="post-profile-icon">
+
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn"> Load More</button>
+
+
+
+
+
+        </div>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4> Events </h4>
+                <a href="#"> See All </a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3> 18 </h3>
+                    <span> June </span>
+                </div>
+                <div class="right-event">
+                    <h4> Social Media </h4>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> Lansdowne, Uttarakhand </p>
+                    <a href="#"> More Info </a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3> 17 </h3>
+                    <span> July </span>
+                </div>
+                <div class="right-event">
+                    <h4> Innovation </h4>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i> IIT Bhilai </p>
+                    <a href="#"> More Info </a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4> Advertisement </h4>
+                <a href="#"> Close </a>
+            </div>
+            <img src="ad.jpg" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4> Conversation </h4>
+                <a href="#"> Hide Chat </a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="IMG_20221024_214629.jpg">
+                </div>
+                <p>   Manisha Sharma</p>
+            </div>
+             
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="pooi.jpg">
+                </div>
+                <p>   Soumya Aggarwal </p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="j.jpg">
+                </div>
+                <p>   Karanvir Singh</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2023-WebDev project1</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
